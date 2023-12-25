@@ -1,0 +1,49 @@
+:root {
+    --bg-primary : #24353F;
+    --primary-color : #17A2B8;
+    --secondary-color : #B5B5B5;
+}
+
+body {
+    background-color: var(--bg-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.form-control {
+    color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: var(--secondary-color);
+}
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+}
+
+.btn-outline-info {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.container a {
+    text-decoration: none
+}
+.container a:hover {
+    text-decoration: underline;
+}

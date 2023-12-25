@@ -1,0 +1,24 @@
+:root {
+    --bg-primary : #24353F;
+    --primary-color : #17A2B8;
+    --secondary-color : #B5B5B5;
+}
+
+body {
+    background-color: var(--bg-primary);
+    font-family: 'Roboto', sans-serif;
+    height: 90vh;
+}
+
+nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.content {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
